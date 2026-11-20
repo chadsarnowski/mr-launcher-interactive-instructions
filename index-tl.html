@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="tl" data-theme="light" data-text-size="standard">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Manwal sa Pag-install ng Mr. Launcher 2.0 Kayak Launch Dock | American Muscle Docks</title>
+  <meta name="description" content="Opisyal na digital na manwal sa pag-install ng Mr. Launcher 2.0 Kayak Launch Dock ng American Muscle Docks. Pag-install sa apat na hakbang, nilalaman ng kit, mga kagamitang kailangan at mga sukat.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" href="images/mr-launcher-logo.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="images/mr-launcher-logo.png">
+  <link rel="stylesheet" href="styles.css?v=1">
+  <script src="script.js?v=1" defer></script>
+  <script src="dockly-knowledge.js" defer></script>
+  <script src="dockly-config.js" defer></script>
+  <script src="dockly-assistant.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#manual">Lumaktaw sa manwal</a>
+
+  <header class="site-header">
+    <a class="brand" href="#page-1">
+      <img class="logo-light" src="images/american-muscle-docks-logo-dark.png" alt="American Muscle Docks &amp; Fabrication" width="1024" height="278">
+      <img class="logo-dark" src="images/american-muscle-docks-logo-light.png" alt="" width="1024" height="278">
+      <span class="brand-text">Mr. Launcher 2.0 <b>Manwal sa Pag-install</b></span>
+    </a>
+
+    <nav class="header-actions" aria-label="Mga kontrol ng manwal">
+      <button id="contents-toggle" type="button" aria-expanded="false" aria-controls="contents-drawer">
+        <span class="icon" aria-hidden="true">☰</span>
+        <span>Menu</span>
+      </button>
+
+      <div class="text-size-control" role="group" aria-label="Laki ng Teksto">
+        <button id="size-btn-standard" type="button" class="size-btn active" data-size="standard" title="Karaniwang laki ng teksto" aria-pressed="true">A</button>
+        <button id="size-btn-xl" type="button" class="size-btn" data-size="xl" title="Napakalaking laki ng teksto" aria-pressed="false">A++</button>
+      </div>
+
+      <button id="theme-toggle" type="button" aria-pressed="false" title="Ilipat sa madilim na mode">
+        <span aria-hidden="true" class="theme-icon">◐</span>
+        <span class="theme-label">Madilim</span>
+      </button>
+
+      <div class="lang-selector-container">
+        <button id="lang-picker-btn" type="button" class="lang-picker-btn" aria-expanded="false" aria-haspopup="true" aria-label="Pumili ng Wika" title="Baguhin ang Wika">
+          <span class="lang-icon" aria-hidden="true">🌐</span>
+          <span id="current-lang-code" class="current-lang-code" translate="no">TL</span>
+          <span class="lang-arrow" aria-hidden="true">▾</span>
+        </button>
+        <ul id="lang-menu" class="lang-dropdown-menu" role="menu" hidden>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="en"><span class="lang-flag">🇺🇸</span> <span class="lang-name" translate="no">English</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="es"><span class="lang-flag">🇪🇸</span> <span class="lang-name" translate="no">Español</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="zh"><span class="lang-flag">🇨🇳</span> <span class="lang-name" translate="no">中文 (Chinese)</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option active" data-lang="tl"><span class="lang-flag">🇵🇭</span> <span class="lang-name" translate="no">Tagalog</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="vi"><span class="lang-flag">🇻🇳</span> <span class="lang-name" translate="no">Tiếng Việt</span></button></li>
+        </ul>
+      </div>
+
+      <a class="pdf-btn" href="assets/manuals/Mr-Launcher-2.0-Kayak-Launch-Dock-Installation-Manual-9.16.26.pdf" target="_blank" rel="noopener" title="Buksan ang PDF na manwal sa bagong window para i-print o i-download">PDF</a>
+    </nav>
+
+    <div class="progress"><span id="reading-progress"></span></div>
+  </header>
+
+  <aside id="contents-drawer" class="contents-drawer" hidden>
+    <header>
+      <h2>Mga Pahina ng Manwal</h2>
+      <button id="contents-close" type="button" aria-label="Isara ang talaan ng nilalaman">×</button>
+    </header>
+    <nav id="contents-links" aria-label="Nilalaman ng pahina"></nav>
+  </aside>
+
+  <main id="manual" class="manual-book">
+
+    <!-- PAGE 1: COVER -->
+    <article id="page-1" class="manual-page cover-page" data-title="Pabalat">
+      <div class="cover-left-panel">
+        <div class="cover-brand-header">
+          <img class="cover-logo" src="images/cover-amd-logo.png" alt="American Muscle Docks &amp; Fabrication" width="851" height="254">
+        </div>
+
+        <div class="cover-title-group">
+          <h1 class="cover-main-title">MR. LAUNCHER 2.0</h1>
+          <h2 class="cover-sub-title">PLATAPORMA PARA SA KAYAK</h2>
+          <div class="cover-manual-type">
+            <p class="cover-manual-heading">MANWAL SA PAG-INSTALL</p>
+          </div>
+        </div>
+
+        <div class="cover-quick-actions">
+          <a href="#page-2" class="cover-btn cover-btn-primary">Magsimula Dito</a>
+          <a href="#page-4" class="cover-btn cover-btn-secondary">Pag-install sa Apat na Hakbang</a>
+        </div>
+
+        <div class="cover-left-footer">
+          <div class="cover-qr-block">
+            <div class="cover-qr-img-wrapper">
+              <img class="cover-qr" src="images/cover-qr-code.png" alt="I-scan para sa mga video na sanggunian" width="230" height="230">
+            </div>
+            <div class="cover-qr-text">
+              <p>I-scan para sa <a href="https://americanmuscledocks.com/blogs/instructions" target="_blank" rel="noopener">mga video na sanggunian</a></p>
+              <a class="cover-qr-url" href="https://americanmuscledocks.com/blogs/instructions" target="_blank" rel="noopener">americanmuscledocks.com/<wbr>blogs/instructions</a>
+            </div>
+          </div>
+          <div class="cover-contact-block">
+            <a class="cover-phone-num" href="tel:18002233444">1-800-223-3444</a>
+            <a class="cover-web-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cover-right-panel">
+        <div class="cover-badge-wrapper">
+          <img class="cover-badge" src="images/mr-launcher-logo.png" alt="Mr. Launcher ng American Muscle Docks" width="973" height="409">
+        </div>
+
+        <div class="cover-product-wrapper">
+          <img class="cover-product" src="images/cover-product-render.jpg" alt="Mr. Launcher 2.0 na plataporma sa paglulunsad ng kayak" width="896" height="1152">
+        </div>
+
+        <div class="cover-right-footer">
+          <p class="cover-specs">PAGLULUNSAD PARA SA ISANG TAO &nbsp;·&nbsp; MGA RUBBER V-ROLLER &nbsp;·&nbsp; READY PARA SA KANDY KANE</p>
+          <div class="cover-tagline-pill">
+            <span>SAFE AT MAAASAHANG PLATAPORMA SA PAGLULUNSAD NG KAYAK</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PAGE 2: START HERE -->
+    <article id="page-2" class="manual-page" data-title="Magsimula Dito">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">MAGSIMULA DITO</span>
+      </header>
+
+      <div class="plan-layout">
+        <div class="plan-intro">
+          <p class="lead-thankyou"><strong>MARAMING SALAMAT</strong> sa pagbili ng Mr. Launcher 2.0 na kayak launch!</p>
+
+          <p>Pakibasa ang lahat ng direksyon at panoorin ang mga help video bago magsimula.</p>
+          <p>Mga help video: <a href="https://youtube.com/@amdocks" target="_blank" rel="noopener">youtube.com/@amdocks</a></p>
+          <p>Higit pang mga larawan at impormasyon: <a href="https://www.americanmuscledocks.com" target="_blank" rel="noopener">www.AmericanMuscleDocks.com</a></p>
+
+          <div class="orange-card">
+            <h3>NILALAYONG GAMIT - ISANG TAO SA ISANG PAGKAKATAON</h3>
+            <p>Ang residential na launch na ito ay nilalayong magbigay ng mas madaling paraan para sumakay at lumabas ng inyong kayak.</p>
+            <p>Ang residential na kayak launch na ito ay hindi nilalayong gamitin bilang floating dock at dapat gamitin ng isang tao lamang sa isang pagkakataon. Sundin ang mga direksyon para sa tama at ligtas na pag-install.</p>
+          </div>
+
+          <div class="dark-support-card">
+            <div class="support-qr-box">
+              <img src="images/cover-qr-code.png" alt="I-scan para sa mga video na sanggunian" width="230" height="230">
+            </div>
+            <div class="support-info">
+              <h4 class="red-title">KAILANGAN NG TULONG?</h4>
+              <a class="phone-link" href="tel:18002233444">1-800-223-3444</a>
+              <small>I-scan para sa mga video na sanggunian &nbsp;·&nbsp; <a href="https://americanmuscledocks.com/blogs/instructions" target="_blank" rel="noopener">americanmuscledocks.com/blogs/instructions</a></small>
+            </div>
+          </div>
+        </div>
+
+        <div class="plan-steps">
+          <div class="mascot-reference">
+            <img class="captain-docky-img no-zoom" data-no-zoom="true" src="images/captain-docky.png" alt="Si Captain Docky, ang mascot ng American Muscle Docks" width="520" height="603">
+          </div>
+
+          <h3>MGA TALA NI CAPTAIN DOCKY:</h3>
+          <ol class="circle-step-list">
+            <li><span class="step-num">1</span><div>Basahin ang lahat ng direksyon bago mag-assemble.</div></li>
+            <li><span class="step-num">2</span><div>Alisin sa balot at ilatag ang lahat ng parte at hardware sa malinis, patag at tuyong lugar ng trabaho.</div></li>
+            <li><span class="step-num">3</span><div>Bago magsimula, tiyaking kumpleto ang inyong kit ayon sa listahan ng nilalaman.</div></li>
+            <li><span class="step-num">4</span><div>Tipunin ang inyong mga kagamitan at tamasahin ang proseso.</div></li>
+          </ol>
+        </div>
+      </div>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">2</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 3: WHAT'S INSIDE -->
+    <article id="page-3" class="manual-page" data-title="Nilalaman ng Kahon">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">NILALAMAN</span>
+      </header>
+
+      <h2>NILALAMAN NG KAHON</h2>
+
+      <div class="parts-key">
+        <div class="parts-column">
+          <h3>NILALAMAN NG KIT</h3>
+          <ul class="parts-list">
+            <li><span>2&rsquo; x 8&rsquo; na floating platform</span><b>2</b></li>
+            <li><span>Aluminum na grab-bar</span><b>1</b></li>
+            <li><span>Aluminum na pipe support — 1.5&rdquo; na tubo, 7&rsquo; ang haba</span><b>2</b></li>
+            <li><span>Aluminum na sq. tube stabilizer — nakakabit na ang mga rubber V-roller at bolt</span><b>2</b></li>
+          </ul>
+
+          <div class="mr-launcher-mark">
+            <img class="no-zoom" data-no-zoom="true" src="images/mr-launcher-logo.png" alt="Mr. Launcher ng American Muscle Docks" width="973" height="409">
+          </div>
+        </div>
+
+        <div class="parts-column">
+          <h3>MGA SUPOT NG BOLT</h3>
+          <ul class="parts-list">
+            <li><span>Pipe support — 3/8 x 4&rdquo; na stainless bolt at grasa</span><b>8</b></li>
+            <li><span>Sq. tube stabilizer — 3/8 x 3&rdquo; na stainless bolt</span><b>4</b></li>
+            <li><span>Grab-bar — 3/8 x 5&rdquo; na all-thread bolt</span><b>2</b></li>
+            <li><span>Grab-bar — 3/8 x 1.5&rdquo; na all-thread bolt</span><b>2</b></li>
+            <li><span>K.K. pipe receiver — 3/8 x 1 &frac14;&rdquo; na carriage bolt</span><b>2</b></li>
+            <li><span>K.K. pipe receiver — 3/8 x 4&rdquo; na carriage bolt</span><b>4</b></li>
+            <li><span>K.K. deck bracket — 1/2 x 3&rdquo; na carriage bolt</span><b>8</b></li>
+          </ul>
+
+          <div class="blue-note parts-fasteners-note">
+            <p>Grasahan ang mga thread ng 3/8 x 4&rdquo; na stainless bolt habang ikinakabit ang mga pipe support.</p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">3</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 4: FOUR STEP INSTALLATION & TOOLS -->
+    <article id="page-4" class="manual-page" data-title="Pag-install sa Apat na Hakbang at mga Kagamitang Kailangan">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">IHANDA ANG MGA WASTONG KAGAMITANG KAILANGAN</span>
+      </header>
+
+      <h2>PAG-INSTALL SA APAT NA HAKBANG</h2>
+
+      <div class="four-step-cards">
+        <a href="#page-5" class="step-card">
+          <span class="big-red-num">1</span>
+          <p class="step-title">Ikabit ang mga Aluminum na Pipe Support</p>
+          <span class="step-page-tag">PAHINA 5</span>
+        </a>
+
+        <a href="#page-6" class="step-card">
+          <span class="big-red-num">2</span>
+          <p class="step-title">Ikabit ang mga Sq. Tube Stabilizer</p>
+          <span class="step-page-tag">PAHINA 6</span>
+        </a>
+
+        <a href="#page-7" class="step-card">
+          <span class="big-red-num">3</span>
+          <p class="step-title">I-install ang Aluminum na Grab-Bar</p>
+          <span class="step-page-tag">PAHINA 7</span>
+        </a>
+
+        <a href="#page-8" class="step-card">
+          <span class="big-red-num">4</span>
+          <p class="step-title">Ikabit ang mga Kandy Kane Receiver</p>
+          <span class="step-page-tag">PAHINA 8</span>
+        </a>
+      </div>
+
+      <div class="tools-checklist-grid">
+        <div class="tool-col">
+          <h3>MGA KAGAMITANG KAILANGAN</h3>
+          <ul class="interactive-checklist">
+            <li><label><input type="checkbox" data-tool="tool-wrench916"><span>9/16&rdquo; na wrench</span></label></li>
+            <li><label><input type="checkbox" data-tool="tool-bit716"><span>7/16&rdquo; na drill bit</span></label></li>
+            <li><label><input type="checkbox" data-tool="tool-drill"><span>Cordless na drill</span></label></li>
+            <li><label><input type="checkbox" data-tool="tool-helper"><span>Isang katulong para igalaw ang mga plataporma</span></label></li>
+          </ul>
+        </div>
+
+        <div class="tool-col">
+          <h3>MABUTING MALAMAN</h3>
+          <ul class="interactive-checklist">
+            <li><label><input type="checkbox" data-tool="know-flat"><span>Magtrabaho sa patag na ibabaw at mababaw na tubig habang nag-i-install</span></label></li>
+            <li><label><input type="checkbox" data-tool="know-loose"><span>Iwang maluwag ang mga bolt hanggang matapos ang <strong class="red-text">(hakbang 3)</strong></span></label></li>
+            <li><label><input type="checkbox" data-tool="know-storms"><span>Alisin sa dock kapag may masamang bagyo</span></label></li>
+            <li><label><input type="checkbox" data-tool="know-read"><span>Basahin ang lahat ng direksyon bago mag-assemble</span></label></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="warning-banner">
+        <p>Tingnan ang aming website para sa mga video, o panoorin ang mga ito sa <a href="https://youtube.com/@amdocks" target="_blank" rel="noopener">youtube.com/@amdocks</a>, at basahin ang lahat ng direksyon bago mag-assemble.</p>
+      </div>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">4</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 5: STEP ONE -->
+    <article id="page-5" class="manual-page" data-title="Unang Hakbang — Pagkakabit ng mga Aluminum na Pipe Support">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">UNANG HAKBANG — 1 NG 4</span>
+      </header>
+
+      <div class="step-title-header">
+        <span class="step-badge-large">1</span>
+        <h2 class="step-main-title">IKABIT ANG MGA ALUMINUM NA PIPE SUPPORT</h2>
+      </div>
+
+      <ul class="step-bullets">
+        <li>Ilagay ang dalawang floating platform na may humigit-kumulang 3&rsquo; na pagitan. <strong>*Tiyaking magkaharap ang mga gilid na may <u>mga pre-drilled na butas sa gitna</u> para sa grab-bar.</strong></li>
+        <li>Ipatong ang mga aluminum na pipe support sa loob (sa ibabaw) ng mga &ldquo;V&rsquo;s&rdquo; sa mga floating platform at ikabit ang mga ito gamit ang <strong class="red-text">3/8 x 4&rdquo; na stainless steel bolt</strong> <strong>(tiyaking gamitin ang kasamang grasa sa mga thread).</strong> Ang mga bolt ay dapat ipasok mula sa ilalim ng V (pataas sa V at sa aluminum na tubo) na nasa ibabaw ang nut.</li>
+        <li>Basta-basta munang higpitan ang lahat ng <strong class="red-text">(8)</strong> bolt sa mga pre-drilled na butas ng mga pipe support at ng aluminum na frame ng plataporma. Tapusin ang <strong class="red-text">(hakbang 3)</strong> bago higpitan nang buo.</li>
+      </ul>
+
+      <figure class="wide-figure step-figure">
+        <img class="clickable-photo" src="images/step-1-pipe-supports.jpg" alt="Dalawang floating platform na may humigit-kumulang tatlong talampakang pagitan, nakapatong ang mga aluminum na pipe support sa mga V bracket at naka-bolt sa ilalim ng bawat V" loading="lazy" width="1559" height="870">
+        <figcaption><b class="red-text">HAKBANG 1</b> — MGA PIPE SUPPORT NA NAKA-BOLT SA MGA V BRACKET</figcaption>
+      </figure>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">5</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 6: STEP TWO -->
+    <article id="page-6" class="manual-page" data-title="Ikalawang Hakbang — Pagkakabit ng mga Sq. Tube Stabilizer">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">IKALAWANG HAKBANG — 2 NG 4</span>
+      </header>
+
+      <div class="step-title-header">
+        <span class="step-badge-large">2</span>
+        <h2 class="step-main-title">IKABIT ANG MGA SQ. TUBE STABILIZER</h2>
+      </div>
+
+      <ul class="step-bullets">
+        <li>Ikabit ang mga square tube stabilizer na may rubber V-roller sa bawat panloob na dulo sa pagitan ng dalawang dock section gamit ang <strong class="red-text">(4) 3/8 x 3&rdquo; na bolt.</strong> Ilagay ang dalawang piyesa at higpitan gamit ang daliri hanggang matapos ang <strong class="red-text">(hakbang 3)</strong>.</li>
+      </ul>
+
+      <div class="blue-note">
+        <p><b>** May mga pre-drilled na butas na sa aluminum na V kung saan pinakamainam na nakadantay ang karamihan ng kayak sa mga rubber roller.</b> Iba-iba ang hugis ng ilalim ng ilang kayak at maaaring kailanganin ang bagong butas para itaas o ibaba ang bracket na ito. Ang tamang resistance ay sapat lamang para makasakay at makalabas kayo sa kayak nang hindi masyadong gumagalaw ang kayak. Itinakda namin ang mga butas sa pinakakaraniwang taas na bagay sa halos lahat ng ilalim ng kayak, kaya hinahawakan ng mga roller ang kayak at hindi ito naaanod kapag nakadaong.</p>
+      </div>
+
+      <figure class="wide-figure step-figure">
+        <img class="clickable-photo" src="images/step-2-sq-tube-stabilizers.jpg" alt="Tanawin sa pagitan ng dalawang dock section na nagpapakita ng mga square tube stabilizer na may itim na rubber V-roller na naka-bolt sa mga panloob na dulo" loading="lazy" width="1600" height="900">
+        <figcaption><b class="red-text">HAKBANG 2</b> — NAKAKABIT NA ANG MGA SQ. TUBE STABILIZER</figcaption>
+      </figure>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">6</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 7: STEP THREE -->
+    <article id="page-7" class="manual-page" data-title="Ikatlong Hakbang — Pag-install ng Aluminum na Grab-Bar">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">IKATLONG HAKBANG — 3 NG 4</span>
+      </header>
+
+      <div class="step-title-header">
+        <span class="step-badge-large">3</span>
+        <h2 class="step-main-title">I-INSTALL ANG ALUMINUM NA GRAB-BAR</h2>
+      </div>
+
+      <p>Ilagay ang aluminum na grab-bar sa pinakagitna ng loob ng dalawang floating platform. May mga pre-drilled na butas sa itaas at ibaba ng grab-bar (itugma ang mga ito sa mga pre-drilled na butas ng mga plataporma). Kung hindi eksaktong magkatapat ang mga butas, maaaring kailangan mong luwagan ang ilang bolt ng mga aluminum na pipe support o square tube stabilizer na inikabit mo.</p>
+
+      <h3>HIGPITAN ANG MGA BOLT</h3>
+      <ul class="step-bullets">
+        <li>Ikabit ang <strong class="red-text">(1)</strong> <strong class="red-text">3/8 x 5&rdquo; na all-thread bolt</strong> sa bawat bracket mula sa itaas, pababa sa grab-bar, gitnang sleeper board, at decking.</li>
+        <li>Ikabit ang <strong class="red-text">(1)</strong> <strong class="red-text">3/8 x 1.5&rdquo; na all-thread bolt</strong> sa bawat bracket mula sa mga gilid, dumadaan sa grab-bar at frame.</li>
+        <li>Pagkatapos ma-install ang grab-bar, higpitan ang lahat ng bolt mula sa <strong class="red-text">(hakbang 1-3)</strong>.</li>
+      </ul>
+
+      <figure class="wide-figure step-figure">
+        <img class="clickable-photo" src="images/step-3-grab-bar.jpg" alt="Ang aluminum na grab-bar na nasa gitna ng dalawang floating platform at naka-bolt pababa sa decking at sa frame ng plataporma" loading="lazy" width="1510" height="790">
+        <figcaption><b class="red-text">HAKBANG 3</b> — NASA GITNA AT NAKA-BOLT NA ANG GRAB-BAR</figcaption>
+      </figure>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">7</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 8: STEP FOUR -->
+    <article id="page-8" class="manual-page" data-title="Ikaapat na Hakbang — Pagkakabit ng mga Kandy Kane Pipe Receiver at Bracket">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">IKAAPAT NA HAKBANG — 4 NG 4</span>
+      </header>
+
+      <div class="step-title-header">
+        <span class="step-badge-large">4</span>
+        <h2 class="step-main-title">IKABIT ANG MGA KANDY KANE PIPE RECEIVER AT BRACKET</h2>
+      </div>
+
+      <p>Ikabit ang mga pipe receiver sa inyong floating dock section - Ipaibabaw ito sa panlabas na 2x4&rdquo; na sleeper board para mapunan ng board na iyon ang espasyo sa pagitan ng decking at ng aluminum na frame, o gumamit ng 2x4&rdquo; na bloke para punan ang espasyo sa ilalim ng bracket.</p>
+
+      <p><strong>MGA PIPE RECEIVER</strong> - Gumamit ng <strong class="red-text">(2) 3/8 x 4&rdquo; na carriage bolt</strong> sa bawat kabitan, mula sa itaas pababa. * Ibutas ang mga ito na may bahagyang anggulo palabas ng dock (Huwag mag-alala kung tamaan ang mounting flange ng float). Gumamit ng <strong class="red-text">(1) 3/8 x 1 &frac14;&rdquo; na carriage bolt</strong> sa gilid na bahagi ng bawat kabitan.</p>
+
+      <p><strong>MGA DECK BRACKET -</strong> Planuhin kung saan gustong magbutas at ikabit ang mga Kandy Kane deck bracket sa inyong permanenteng istruktura, bawat isa gamit ang <strong class="red-text">(4) 1/2 x 3&rdquo; na carriage bolt</strong>. Ikabit ang plate nang pinakamalapit sa gilid ng decking hangga't maaari para may espasyo sa pagitan ng tubo at ng inyong decking (tinitiyak ng espasyong ito na makakausad pataas sa tubo ang mga pipe holder ng kayak launch nang hindi naiipit sa inyong dock).</p>
+
+      <div class="diagram-row">
+        <figure class="step-figure">
+          <img class="clickable-photo" src="images/step-4-pipe-receiver.jpg" alt="Kandy Kane pipe receiver na nakakabit sa sulok ng floating dock section, nakapaibabaw sa panlabas na sleeper board" loading="lazy" width="1520" height="1273">
+        </figure>
+        <figure class="step-figure">
+          <img class="clickable-photo" src="images/step-4-deck-bracket.jpg" alt="Ang kayak launch sa tubig sa tabi ng permanenteng dock, nakalagay ang mga Kandy Kane na tubo sa mga receiver at may deck bracket na nakakabit sa dock" loading="lazy" width="1600" height="1343">
+          <figcaption><b class="red-text">HAKBANG 4</b> — NAKALAGAY NA ANG MGA KANDY KANE RECEIVER AT BRACKET</figcaption>
+        </figure>
+      </div>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">8</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 9: GALLERY -->
+    <article id="page-9" class="manual-page" data-title="Galerya">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">GALERYA</span>
+      </header>
+
+      <h2>GALERYA</h2>
+
+      <div class="diagram-row">
+        <figure class="gallery-figure">
+          <img class="clickable-photo" src="images/gallery-red-kayak.jpg" alt="Isang pulang kayak na nakalutang sa pagitan ng dalawang plataporma ng naka-install na Mr. Launcher launch dock" loading="lazy" width="900" height="900">
+        </figure>
+        <figure class="gallery-figure">
+          <img class="clickable-photo" src="images/gallery-lakeside.jpg" alt="Instalasyon sa tabi ng lawa na may dilaw at asul na kayak na nakadaong sa mga Mr. Launcher launch dock sa tabi ng permanenteng dock" loading="lazy" width="667" height="500">
+        </figure>
+      </div>
+
+      <div class="diagram-row">
+        <figure class="gallery-figure">
+          <img class="clickable-photo" src="images/gallery-product-render.jpg" alt="Product rendering ng nakabuong Mr. Launcher 2.0 kasama ang mga plataporma, stabilizer, grab-bar at mga Kandy Kane na tubo" loading="lazy" width="1079" height="686">
+        </figure>
+        <figure class="gallery-figure">
+          <img class="clickable-photo full-diagram" src="images/dimension-drawings.jpg" alt="Mga drawing ng sukat: kabuuang lapad na 84 1/4 pulgada, binubuo ng 24 1/2, 35 1/4 at 24 1/2 pulgada; haba ng plataporma na 96 pulgada; taas ng grab-bar na 27 pulgada; taas ng deck na 11 pulgada; stabilizer na 1 pulgadang tubo, 38 1/2 pulgada ang haba, may pagitan ng butas na 1, 12, 12 1/2, 12 at 1 pulgada at karaniwang 7/16 pulgadang butas; adjustable na pipe support na may 7/16 pulgadang butas" loading="lazy" width="1744" height="1136">
+        </figure>
+      </div>
+
+      <p class="gallery-hint">I-tap o i-click ang anumang larawan para buksan ito nang full screen. Mas madaling mabasa ang drawing ng sukat kapag pinalaki.</p>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;&bull;&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">9</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 10: BACK COVER -->
+    <article id="page-10" class="manual-page closing-page" data-title="May Tanong Bago Mag-install?">
+      <div class="closing-container">
+        <header class="closing-brand-header">
+          <img src="images/amd-closing-logo.png" alt="American Muscle Docks &amp; Fabrication" class="closing-brand-logo" width="1536" height="416">
+        </header>
+
+        <div class="closing-visual-frame">
+          <img src="images/mr-launcher-logo.png" alt="Mr. Launcher 2.0 na plataporma sa paglulunsad ng kayak" class="closing-mascot-img" width="973" height="409">
+        </div>
+
+        <div class="closing-contact-card">
+          <div class="closing-contact-main">
+            <h2 class="closing-questions-title">MAY TANONG BAGO MAG-INSTALL?</h2>
+            <a href="tel:18002233444" class="closing-phone">1-800-223-3444</a>
+            <a href="https://americanmuscledocks.com" target="_blank" rel="noopener" class="closing-site">AMERICANMUSCLEDOCKS.COM</a>
+          </div>
+          <div class="closing-qr-block">
+            <a href="https://americanmuscledocks.com/blogs/instructions" target="_blank" rel="noopener" title="Buksan ang mga video na sanggunian sa bagong window">
+              <img src="images/cover-qr-code.png" alt="I-scan ang QR code para sa mga video na sanggunian" class="closing-qr-img" width="230" height="230">
+            </a>
+          </div>
+        </div>
+
+        <footer class="closing-page-footer">
+          <span>AMERICAN MUSCLE DOCKS &amp; FABRICATION &nbsp;&middot;&nbsp; MANWAL SA PAG-INSTALL NG MR. LAUNCHER KAYAK LAUNCH DOCK 2.0</span>
+        </footer>
+      </div>
+    </article>
+  </main>
+
+  <!-- BOTTOM FLOATING NAV -->
+  <nav class="bottom-nav" aria-label="Nabigasyon ng pahina">
+    <button id="previous-page" type="button" aria-label="Nakaraang Pahina">← Nakaraan</button>
+    <button id="open-contents" type="button" aria-label="Buksan ang Talaan ng Nilalaman">Mga Pahina</button>
+    <button id="next-page" type="button" aria-label="Susunod na Pahina">Susunod →</button>
+  </nav>
+
+  <!-- SCROLL TO TOP FLOATING BUTTON -->
+  <button id="scroll-to-top" class="scroll-to-top" type="button" aria-label="Mag-scroll pabalik sa itaas ng pahina" title="Bumalik sa itaas">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- IMAGE ENLARGE MODAL DIALOG -->
+  <dialog id="image-dialog" aria-labelledby="dialog-caption">
+    <header class="dialog-header">
+      <div class="dialog-header-info">
+        <svg class="dialog-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          <line x1="11" y1="8" x2="11" y2="14"></line>
+          <line x1="8" y1="11" x2="14" y2="11"></line>
+        </svg>
+        <p id="dialog-caption">Diagram ng Manwal</p>
+      </div>
+      <div class="dialog-header-controls">
+        <button id="dialog-zoom-toggle" type="button" class="dialog-control-btn" title="Ilipat sa buong laki / akmang tanaw">
+          <span id="dialog-zoom-text">Buong Laki (100%)</span>
+        </button>
+        <button id="dialog-close" type="button" class="dialog-close-btn" aria-label="Isara ang pinalakihang tanaw (Esc)" title="Isara (Esc)">✕</button>
+      </div>
+    </header>
+    <div class="dialog-body" id="dialog-body">
+      <img id="dialog-image" alt="Pinalakihang diagram">
+    </div>
+  </dialog>
+  <!-- DOCKY AI ASSISTANT & VISUAL TUTOR WIDGET -->
+  <div id="dockly-widget" class="dockly-widget-root">
+    <!-- Floating Launcher Button -->
+    <button id="dockly-launcher" class="dockly-launcher" type="button" aria-label="Buksan ang Docky AI na Katulong sa Pag-install" title="Makipag-chat sa Docky AI na Katulong">
+      <div class="dockly-launcher-avatar-ring">
+        <img src="images/captain-docky.png" alt="Docky, ang Maskot" class="dockly-launcher-img">
+        <span class="dockly-online-dot"></span>
+      </div>
+      <span class="dockly-launcher-label">Magtanong kay Docky</span>
+      <div class="dockly-speech-bubble" aria-hidden="true">
+        <span>Kailangan ng tulong sa pag-install, kaibigan? ⚓</span>
+      </div>
+    </button>
+
+    <!-- Interactive Chat Panel -->
+    <aside id="dockly-panel" class="dockly-panel" aria-hidden="true" role="dialog" aria-label="Chat ng Docky AI na Katulong">
+      <header class="dockly-header">
+        <div class="dockly-header-info">
+          <div class="dockly-header-avatar">
+            <img src="images/captain-docky.png" alt="Docky">
+            <span class="dockly-header-badge">AI</span>
+          </div>
+          <div>
+            <h3 class="dockly-title">Docky <span>Tagapayo sa Pag-install</span></h3>
+            <span id="dockly-status-badge" class="dockly-status-badge offline">Nakapaloob na Eksperto Mode</span>
+          </div>
+        </div>
+
+        <div class="dockly-header-actions">
+          <button id="dockly-header-stop-btn" type="button" class="dockly-header-stop-btn" style="display:none;" title="Itigil ang pagsasalita" aria-label="Itigil ang pagsasalita">
+            <span class="stop-icon">⏹</span>
+            <span>Itigil</span>
+          </button>
+          <button id="dockly-settings-btn" type="button" class="dockly-icon-btn" title="Mga Setting ng AI at Boses" aria-label="Mga Setting">
+            ⚙️
+          </button>
+          <button id="dockly-clear-chat" type="button" class="dockly-icon-btn" title="I-clear ang Kasaysayan ng Chat" aria-label="I-clear ang chat">
+            🗑️
+          </button>
+          <button id="dockly-close-btn" type="button" class="dockly-close-btn" title="Isara ang Docky" aria-label="Isara">
+            ✕
+          </button>
+        </div>
+      </header>
+
+      <!-- Messages Stream -->
+      <div id="dockly-messages" class="dockly-messages" role="log" aria-live="polite"></div>
+
+      <!-- Media Attachment Preview Strip -->
+      <div id="dockly-attachment-preview" class="dockly-attachment-preview"></div>
+
+      <!-- Active Voice Playback Banner (Instant Stop On Click) -->
+      <div id="dockly-voice-banner" class="dockly-voice-banner" style="display:none;" role="status" aria-live="polite">
+        <div class="voice-banner-left">
+          <div class="voice-wave-bars">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <span class="voice-banner-text">Nagsasalita si Docky...</span>
+        </div>
+        <button type="button" id="dockly-banner-stop-btn" class="dockly-banner-stop-btn" title="Itigil ang pagsasalita ngayon (I-click upang i-mute)" aria-label="Patigilin sa pagsasalita si Docky">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+          </svg>
+          <span>Itigil ang Boses</span>
+        </button>
+      </div>
+
+      <!-- Footer & Input Controls -->
+      <footer class="dockly-footer">
+        <form id="dockly-form" class="dockly-form">
+          <input type="file" id="dockly-file-input" accept="image/*,video/*" hidden aria-label="Mag-upload ng larawan o video para sa inspeksyon">
+          <input type="file" id="dockly-camera-input" accept="image/*" capture="environment" hidden aria-label="Kumuha ng larawan gamit ang camera">
+
+          <button type="button" id="dockly-attach-btn" class="dockly-action-btn attach-btn" title="Mag-upload ng larawan o video ng pantalan (+)" aria-label="Mag-upload ng larawan o video">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </button>
+
+          <button type="button" id="dockly-camera-btn" class="dockly-action-btn camera-btn" title="Kumuha ng live na larawan gamit ang camera" aria-label="Kumuha ng live na larawan">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+              <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+          </button>
+
+          <input type="text" id="dockly-input" class="dockly-input" placeholder="Magtanong kay Docky o mag-upload ng larawan/video ng pantalan..." autocomplete="off">
+
+          <button type="button" id="dockly-mic-btn" class="dockly-action-btn mic-btn" title="Kausapin si Docky (Pagsasalita nang walang kamay)" aria-label="Input na boses">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+              <line x1="12" y1="19" x2="12" y2="23"></line>
+              <line x1="8" y1="23" x2="16" y2="23"></line>
+            </svg>
+          </button>
+
+          <button type="submit" id="dockly-send-btn" class="dockly-send-btn" title="Ipadala ang tanong" aria-label="Ipadala ang mensahe">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </form>
+        <div class="dockly-footer-note">
+          <span>AI Tutor na sinanay sa manwal ng Mr. Kayak Launch Dock ng American Muscle Docks. Huwag kailanman laktawan ang mga structural na direktiba.</span>
+        </div>
+      </footer>
+    </aside>
+
+    <!-- AI & Voice Settings Modal -->
+    <dialog id="dockly-settings-dialog" class="dockly-settings-dialog" aria-labelledby="dockly-settings-title">
+      <div class="dockly-settings-box">
+        <header class="dockly-settings-header">
+          <h3 id="dockly-settings-title">⚙️ Mga Setting ng Docky AI at Boses</h3>
+          <button type="button" id="dockly-settings-close" class="dockly-close-btn" aria-label="Isara ang mga setting">✕</button>
+        </header>
+
+        <form class="dockly-settings-form">
+          <div class="settings-checkbox-field">
+            <label>
+              <input type="checkbox" id="dockly-auto-speak">
+              <span>Awtomatikong bigkasin nang malakas ang mga sagot ng Docky (Walang kamay)</span>
+            </label>
+          </div>
+
+          <div class="settings-actions">
+            <button type="button" id="dockly-settings-save" class="dockly-btn-primary">I-save ang mga Setting</button>
+          </div>
+        </form>
+      </div>
+    </dialog>
+  </div>
+</body>
+</html>

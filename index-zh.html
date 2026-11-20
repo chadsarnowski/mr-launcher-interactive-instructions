@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="zh" data-theme="light" data-text-size="standard">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mr. Launcher 2.0 皮划艇下水码头安装手册 | American Muscle Docks</title>
+  <meta name="description" content="American Muscle Docks Mr. Launcher 2.0 皮划艇下水码头官方数字版安装手册。四步安装、套件清单、所需工具和尺寸。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" href="images/mr-launcher-logo.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="images/mr-launcher-logo.png">
+  <link rel="stylesheet" href="styles.css?v=1">
+  <script src="script.js?v=1" defer></script>
+  <script src="dockly-knowledge.js" defer></script>
+  <script src="dockly-config.js" defer></script>
+  <script src="dockly-assistant.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#manual">跳至手册正文</a>
+
+  <header class="site-header">
+    <a class="brand" href="#page-1">
+      <img class="logo-light" src="images/american-muscle-docks-logo-dark.png" alt="American Muscle Docks &amp; Fabrication" width="1024" height="278">
+      <img class="logo-dark" src="images/american-muscle-docks-logo-light.png" alt="" width="1024" height="278">
+      <span class="brand-text">Mr. Launcher 2.0 <b>安装手册</b></span>
+    </a>
+
+    <nav class="header-actions" aria-label="手册控件">
+      <button id="contents-toggle" type="button" aria-expanded="false" aria-controls="contents-drawer">
+        <span class="icon" aria-hidden="true">☰</span>
+        <span>菜单</span>
+      </button>
+
+      <div class="text-size-control" role="group" aria-label="字体大小">
+        <button id="size-btn-standard" type="button" class="size-btn active" data-size="standard" title="标准字体大小" aria-pressed="true">A</button>
+        <button id="size-btn-xl" type="button" class="size-btn" data-size="xl" title="超大字体" aria-pressed="false">A++</button>
+      </div>
+
+      <button id="theme-toggle" type="button" aria-pressed="false" title="切换深色模式">
+        <span aria-hidden="true" class="theme-icon">◐</span>
+        <span class="theme-label">深色</span>
+      </button>
+
+      <div class="lang-selector-container">
+        <button id="lang-picker-btn" type="button" class="lang-picker-btn" aria-expanded="false" aria-haspopup="true" aria-label="选择语言" title="更改语言">
+          <span class="lang-icon" aria-hidden="true">🌐</span>
+          <span id="current-lang-code" class="current-lang-code" translate="no">ZH</span>
+          <span class="lang-arrow" aria-hidden="true">▾</span>
+        </button>
+        <ul id="lang-menu" class="lang-dropdown-menu" role="menu" hidden>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="en"><span class="lang-flag">🇺🇸</span> <span class="lang-name" translate="no">English</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="es"><span class="lang-flag">🇪🇸</span> <span class="lang-name" translate="no">Español</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option active" data-lang="zh"><span class="lang-flag">🇨🇳</span> <span class="lang-name" translate="no">中文 (Chinese)</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="tl"><span class="lang-flag">🇵🇭</span> <span class="lang-name" translate="no">Tagalog</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="vi"><span class="lang-flag">🇻🇳</span> <span class="lang-name" translate="no">Tiếng Việt</span></button></li>
+        </ul>
+      </div>
+
+      <a class="pdf-btn" href="assets/manuals/Mr-Launcher-2.0-Kayak-Launch-Dock-Installation-Manual-9.16.26.pdf" target="_blank" rel="noopener" title="在新窗口中打开 PDF 手册以打印或下载">PDF</a>
+    </nav>
+
+    <div class="progress"><span id="reading-progress"></span></div>
+  </header>
+
+  <aside id="contents-drawer" class="contents-drawer" hidden>
+    <header>
+      <h2>手册页面</h2>
+      <button id="contents-close" type="button" aria-label="关闭目录">×</button>
+    </header>
+    <nav id="contents-links" aria-label="页面目录"></nav>
+  </aside>
+
+  <main id="manual" class="manual-book">
+
+    <!-- PAGE 1: COVER -->
+    <article id="page-1" class="manual-page cover-page" data-title="封面">
+      <div class="cover-left-panel">
+        <div class="cover-brand-header">
+          <img class="cover-logo" src="images/cover-amd-logo.png" alt="American Muscle Docks &amp; Fabrication" width="851" height="254">
+        </div>
+
+        <div class="cover-title-group">
+          <h1 class="cover-main-title">MR. LAUNCHER 2.0</h1>
+          <h2 class="cover-sub-title">皮划艇码头</h2>
+          <div class="cover-manual-type">
+            <p class="cover-manual-heading">安装手册</p>
+          </div>
+        </div>
+
+        <div class="cover-quick-actions">
+          <a href="#page-2" class="cover-btn cover-btn-primary">从这里开始</a>
+          <a href="#page-4" class="cover-btn cover-btn-secondary">四步安装</a>
+        </div>
+
+        <div class="cover-left-footer">
+          <div class="cover-qr-block">
+            <div class="cover-qr-img-wrapper">
+              <img class="cover-qr" src="images/cover-qr-code.png" alt="扫码观看参考视频" width="230" height="230">
+            </div>
+            <div class="cover-qr-text">
+              <p>扫码观看<a href="https://americanmuscledocks.com/blogs/instructions" target="_blank" rel="noopener">参考视频</a></p>
+              <a class="cover-qr-url" href="https://americanmuscledocks.com/blogs/instructions" target="_blank" rel="noopener">americanmuscledocks.com/<wbr>blogs/instructions</a>
+            </div>
+          </div>
+          <div class="cover-contact-block">
+            <a class="cover-phone-num" href="tel:18002233444">1-800-223-3444</a>
+            <a class="cover-web-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cover-right-panel">
+        <div class="cover-badge-wrapper">
+          <img class="cover-badge" src="images/mr-launcher-logo.png" alt="American Muscle Docks 旗下 Mr. Launcher" width="973" height="409">
+        </div>
+
+        <div class="cover-product-wrapper">
+          <img class="cover-product" src="images/cover-product-render.jpg" alt="Mr. Launcher 2.0 皮划艇下水码头" width="896" height="1152">
+        </div>
+
+        <div class="cover-right-footer">
+          <p class="cover-specs">单人下水 &nbsp;·&nbsp; 橡胶 V 型滚轮 &nbsp;·&nbsp; 适配 KANDY KANE</p>
+          <div class="cover-tagline-pill">
+            <span>安全可靠的皮划艇下水码头</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PAGE 2: START HERE -->
+    <article id="page-2" class="manual-page" data-title="从这里开始">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">从这里开始</span>
+      </header>
+
+      <div class="plan-layout">
+        <div class="plan-intro">
+          <p class="lead-thankyou"><strong>感谢</strong>您购买 Mr. Launcher 2.0 皮划艇下水码头！</p>
+
+          <p>开始之前，请阅读所有说明并观看帮助视频。</p>
+          <p>帮助视频：<a href="https://youtube.com/@amdocks" target="_blank" rel="noopener">youtube.com/@amdocks</a></p>
+          <p>更多图片和信息：<a href="https://www.americanmuscledocks.com" target="_blank" rel="noopener">www.AmericanMuscleDocks.com</a></p>
+
+          <div class="orange-card">
+            <h3>预期用途 - 每次仅限一人</h3>
+            <p>本款家用下水码头旨在为您提供更方便地上下皮划艇的通道。</p>
+            <p>本款家用皮划艇下水码头并非浮动码头，每次只能由一人使用。请按照说明进行正确且安全的安装。</p>
+          </div>
+
+          <div class="dark-support-card">
+            <div class="support-qr-box">
+              <img src="images/cover-qr-code.png" alt="扫码观看参考视频" width="230" height="230">
+            </div>
+            <div class="support-info">
+              <h4 class="red-title">需要帮助？</h4>
+              <a class="phone-link" href="tel:18002233444">1-800-223-3444</a>
+              <small>扫码观看参考视频 &nbsp;·&nbsp; <a href="https://americanmuscledocks.com/blogs/instructions" target="_blank" rel="noopener">americanmuscledocks.com/blogs/instructions</a></small>
+            </div>
+          </div>
+        </div>
+
+        <div class="plan-steps">
+          <div class="mascot-reference">
+            <img class="captain-docky-img no-zoom" data-no-zoom="true" src="images/captain-docky.png" alt="American Muscle Docks 的吉祥物 Captain Docky" width="520" height="603">
+          </div>
+
+          <h3>CAPTAIN DOCKY 的提示：</h3>
+          <ol class="circle-step-list">
+            <li><span class="step-num">1</span><div>组装前请通读所有说明。</div></li>
+            <li><span class="step-num">2</span><div>在干净、平整、干燥的工作区域内拆包并摆放所有零件和五金件。</div></li>
+            <li><span class="step-num">3</span><div>开始之前，请对照清单确认套件齐全。</div></li>
+            <li><span class="step-num">4</span><div>备好工具，享受安装过程。</div></li>
+          </ol>
+        </div>
+      </div>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">2</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 3: WHAT'S INSIDE -->
+    <article id="page-3" class="manual-page" data-title="箱内物品">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">目录</span>
+      </header>
+
+      <h2>箱内物品</h2>
+
+      <div class="parts-key">
+        <div class="parts-column">
+          <h3>套件清单</h3>
+          <ul class="parts-list">
+            <li><span>2&rsquo; x 8&rsquo; 浮动平台</span><b>2</b></li>
+            <li><span>铝制扶手杆</span><b>1</b></li>
+            <li><span>铝制管支撑 — 1.5&rdquo; 管材，长 7&rsquo;</span><b>2</b></li>
+            <li><span>铝制方管稳定杆 — 已装配橡胶 V 型滚轮和螺栓</span><b>2</b></li>
+          </ul>
+
+          <div class="mr-launcher-mark">
+            <img class="no-zoom" data-no-zoom="true" src="images/mr-launcher-logo.png" alt="American Muscle Docks 旗下 Mr. Launcher" width="973" height="409">
+          </div>
+        </div>
+
+        <div class="parts-column">
+          <h3>螺栓包</h3>
+          <ul class="parts-list">
+            <li><span>管支撑 — 3/8 x 4&rdquo; 不锈钢螺栓及润滑脂</span><b>8</b></li>
+            <li><span>方管稳定杆 — 3/8 x 3&rdquo; 不锈钢螺栓</span><b>4</b></li>
+            <li><span>扶手杆 — 3/8 x 5&rdquo; 全螺纹螺栓</span><b>2</b></li>
+            <li><span>扶手杆 — 3/8 x 1.5&rdquo; 全螺纹螺栓</span><b>2</b></li>
+            <li><span>K.K. 管座 — 3/8 x 1 &frac14;&rdquo; 马车螺栓</span><b>2</b></li>
+            <li><span>K.K. 管座 — 3/8 x 4&rdquo; 马车螺栓</span><b>4</b></li>
+            <li><span>K.K. 甲板支架 — 1/2 x 3&rdquo; 马车螺栓</span><b>8</b></li>
+          </ul>
+
+          <div class="blue-note parts-fasteners-note">
+            <p>安装管支撑时，请在 3/8 x 4&rdquo; 不锈钢螺栓的螺纹上涂抹润滑脂。</p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">3</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 4: FOUR STEP INSTALLATION & TOOLS -->
+    <article id="page-4" class="manual-page" data-title="四步安装及所需工具">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">备齐所需的正确工具</span>
+      </header>
+
+      <h2>四步安装</h2>
+
+      <div class="four-step-cards">
+        <a href="#page-5" class="step-card">
+          <span class="big-red-num">1</span>
+          <p class="step-title">安装铝制管支撑</p>
+          <span class="step-page-tag">第 5 页</span>
+        </a>
+
+        <a href="#page-6" class="step-card">
+          <span class="big-red-num">2</span>
+          <p class="step-title">安装方管稳定杆</p>
+          <span class="step-page-tag">第 6 页</span>
+        </a>
+
+        <a href="#page-7" class="step-card">
+          <span class="big-red-num">3</span>
+          <p class="step-title">安装铝制扶手杆</p>
+          <span class="step-page-tag">第 7 页</span>
+        </a>
+
+        <a href="#page-8" class="step-card">
+          <span class="big-red-num">4</span>
+          <p class="step-title">安装 Kandy Kane 管座</p>
+          <span class="step-page-tag">第 8 页</span>
+        </a>
+      </div>
+
+      <div class="tools-checklist-grid">
+        <div class="tool-col">
+          <h3>所需工具</h3>
+          <ul class="interactive-checklist">
+            <li><label><input type="checkbox" data-tool="tool-wrench916"><span>9/16&rdquo; 扳手</span></label></li>
+            <li><label><input type="checkbox" data-tool="tool-bit716"><span>7/16&rdquo; 钻头</span></label></li>
+            <li><label><input type="checkbox" data-tool="tool-drill"><span>无线电钻</span></label></li>
+            <li><label><input type="checkbox" data-tool="tool-helper"><span>一名帮手协助搬动平台</span></label></li>
+          </ul>
+        </div>
+
+        <div class="tool-col">
+          <h3>实用提示</h3>
+          <ul class="interactive-checklist">
+            <li><label><input type="checkbox" data-tool="know-flat"><span>安装时请在平整的表面和浅水区作业</span></label></li>
+            <li><label><input type="checkbox" data-tool="know-loose"><span>螺栓先不要拧紧，直到完成 <strong class="red-text">(第 3 步)</strong></span></label></li>
+            <li><label><input type="checkbox" data-tool="know-storms"><span>遇到恶劣风暴天气时，请将其从码头上移除</span></label></li>
+            <li><label><input type="checkbox" data-tool="know-read"><span>组装前请阅读所有说明</span></label></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="warning-banner">
+        <p>请在我们的网站上查看视频，或在 <a href="https://youtube.com/@amdocks" target="_blank" rel="noopener">youtube.com/@amdocks</a> 观看，并在组装前阅读所有说明。</p>
+      </div>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">4</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 5: STEP ONE -->
+    <article id="page-5" class="manual-page" data-title="第一步 — 安装铝制管支撑">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">第一步 — 第 1 部分，共 4 部分</span>
+      </header>
+
+      <div class="step-title-header">
+        <span class="step-badge-large">1</span>
+        <h2 class="step-main-title">安装铝制管支撑</h2>
+      </div>
+
+      <ul class="step-bullets">
+        <li>将两块浮动平台相距大约 3&rsquo; 摆放。<strong>*务必让带有<u>中央预钻孔</u>（用于扶手杆）的一侧彼此相对。</strong></li>
+        <li>将铝制管支撑放入（置于）浮动平台上 &ldquo;V&rsquo;s&rdquo; 形托座的内侧，并用 <strong class="red-text">3/8 x 4&rdquo; 不锈钢螺栓</strong><strong>（务必在螺纹上涂抹随附的润滑脂）</strong>固定。螺栓应从 V 形托座底部自下向上穿过 V 形托座和铝管，螺母位于上方。</li>
+        <li>将全部 <strong class="red-text">(8)</strong> 颗螺栓穿过管支撑和铝制平台框架上的预钻孔并轻轻拧上。完成 <strong class="red-text">(第 3 步)</strong> 后再完全拧紧。</li>
+      </ul>
+
+      <figure class="wide-figure step-figure">
+        <img class="clickable-photo" src="images/step-1-pipe-supports.jpg" alt="两块浮动平台相距约三英尺，铝制管支撑放在 V 形托座上并在每个 V 形托座底部用螺栓固定" loading="lazy" width="1559" height="870">
+        <figcaption><b class="red-text">第 1 步</b> — 管支撑已用螺栓固定到 V 形托座</figcaption>
+      </figure>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">5</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 6: STEP TWO -->
+    <article id="page-6" class="manual-page" data-title="第二步 — 安装方管稳定杆">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">第二步 — 第 2 部分，共 4 部分</span>
+      </header>
+
+      <div class="step-title-header">
+        <span class="step-badge-large">2</span>
+        <h2 class="step-main-title">安装方管稳定杆</h2>
+      </div>
+
+      <ul class="step-bullets">
+        <li>用 <strong class="red-text">(4) 颗 3/8 x 3&rdquo; 螺栓</strong>将带橡胶 V 型滚轮的方管稳定杆安装到两段码头之间的每个内侧端部。先装上两根稳定杆并用手拧紧，直到完成 <strong class="red-text">(第 3 步)</strong>。</li>
+      </ul>
+
+      <div class="blue-note">
+        <p><b>** 铝制 V 形托座上已预先钻孔，该位置适合大多数皮划艇搁置在橡胶滚轮上。</b> 部分皮划艇的船底形状不同，可能需要重新钻孔，以便将该支架上移或下移。阻力适中即可，既能让您顺利上下皮划艇，又不会让皮划艇晃动过大。我们按照适合大多数皮划艇船底的常见高度设定孔位，使滚轮能够夹住皮划艇，停靠时不会漂走。</p>
+      </div>
+
+      <figure class="wide-figure step-figure">
+        <img class="clickable-photo" src="images/step-2-sq-tube-stabilizers.jpg" alt="两段码头之间的视图，显示带黑色橡胶 V 型滚轮的方管稳定杆用螺栓固定在内侧端部" loading="lazy" width="1600" height="900">
+        <figcaption><b class="red-text">第 2 步</b> — 方管稳定杆已安装</figcaption>
+      </figure>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">6</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 7: STEP THREE -->
+    <article id="page-7" class="manual-page" data-title="第三步 — 安装铝制扶手杆">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">第三步 — 第 3 部分，共 4 部分</span>
+      </header>
+
+      <div class="step-title-header">
+        <span class="step-badge-large">3</span>
+        <h2 class="step-main-title">安装铝制扶手杆</h2>
+      </div>
+
+      <p>将铝制扶手杆安装在两块浮动平台内侧的正中位置。扶手杆的上下两端均有预钻孔（请与平台上的预钻孔对齐）。如果孔位无法完全对齐，可能需要松开先前安装的铝制管支撑或方管稳定杆上的部分螺栓。</p>
+
+      <h3>拧紧螺栓</h3>
+      <ul class="step-bullets">
+        <li>每个支架从上方装入 <strong class="red-text">(1)</strong> 颗 <strong class="red-text">3/8 x 5&rdquo; 全螺纹螺栓</strong>，自上而下穿过扶手杆、中央垫木和铺板。</li>
+        <li>每个支架从侧面装入 <strong class="red-text">(1)</strong> 颗 <strong class="red-text">3/8 x 1.5&rdquo; 全螺纹螺栓</strong>，穿过扶手杆和框架。</li>
+        <li>扶手杆安装完成后，拧紧 <strong class="red-text">(第 1-3 步)</strong> 中的所有螺栓。</li>
+      </ul>
+
+      <figure class="wide-figure step-figure">
+        <img class="clickable-photo" src="images/step-3-grab-bar.jpg" alt="铝制扶手杆居中安装在两块浮动平台之间，并用螺栓穿过铺板固定到平台框架上" loading="lazy" width="1510" height="790">
+        <figcaption><b class="red-text">第 3 步</b> — 扶手杆已居中并用螺栓固定</figcaption>
+      </figure>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">7</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 8: STEP FOUR -->
+    <article id="page-8" class="manual-page" data-title="第四步 — 安装 Kandy Kane 管座及支架">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">第四步 — 第 4 部分，共 4 部分</span>
+      </header>
+
+      <div class="step-title-header">
+        <span class="step-badge-large">4</span>
+        <h2 class="step-main-title">安装 KANDY KANE 管座及支架</h2>
+      </div>
+
+      <p>将管座安装在您的浮动码头段上 - 让管座跨在外侧 2x4&rdquo; 垫木上，使该垫木填满铺板与铝制框架之间的空隙；也可以用一块 2x4&rdquo; 木块填满支架下方的空隙。</p>
+
+      <p><strong>管座</strong> - 每个安装位自上而下使用 <strong class="red-text">(2) 颗 3/8 x 4&rdquo; 马车螺栓</strong>。* 钻孔时请略微朝码头外侧倾斜（若碰到浮体安装法兰不必担心）。每个安装位在侧面使用 <strong class="red-text">(1) 颗 3/8 x 1 &frac14;&rdquo; 马车螺栓</strong>。</p>
+
+      <p><strong>甲板支架 -</strong> 先规划好钻孔位置，然后用 <strong class="red-text">(4) 颗 1/2 x 3&rdquo; 马车螺栓</strong>将 Kandy Kane 甲板支架固定到您的固定结构上。安装底板时应尽量靠近铺板边缘，使管材与铺板之间留有间隙（该间隙可确保下水码头上的管夹能沿管材上下移动而不会卡在码头之间）。</p>
+
+      <div class="diagram-row">
+        <figure class="step-figure">
+          <img class="clickable-photo" src="images/step-4-pipe-receiver.jpg" alt="Kandy Kane 管座安装在浮动码头段的角部，跨在外侧垫木上" loading="lazy" width="1520" height="1273">
+        </figure>
+        <figure class="step-figure">
+          <img class="clickable-photo" src="images/step-4-deck-bracket.jpg" alt="皮划艇下水码头位于固定码头旁的水中，Kandy Kane 管材插入管座内，甲板支架固定在码头上" loading="lazy" width="1600" height="1343">
+          <figcaption><b class="red-text">第 4 步</b> — KANDY KANE 管座和支架已就位</figcaption>
+        </figure>
+      </div>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;•&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">8</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 9: GALLERY -->
+    <article id="page-9" class="manual-page" data-title="图库">
+      <header class="page-header">
+        <span class="header-left">MR. LAUNCHER 2.0</span>
+        <span class="header-right">图库</span>
+      </header>
+
+      <h2>图库</h2>
+
+      <div class="diagram-row">
+        <figure class="gallery-figure">
+          <img class="clickable-photo" src="images/gallery-red-kayak.jpg" alt="一艘红色皮划艇浮在已安装好的 Mr. Launcher 下水码头两块平台之间" loading="lazy" width="900" height="900">
+        </figure>
+        <figure class="gallery-figure">
+          <img class="clickable-photo" src="images/gallery-lakeside.jpg" alt="湖畔安装实例：一艘黄色和一艘蓝色皮划艇停靠在固定码头旁的 Mr. Launcher 下水码头上" loading="lazy" width="667" height="500">
+        </figure>
+      </div>
+
+      <div class="diagram-row">
+        <figure class="gallery-figure">
+          <img class="clickable-photo" src="images/gallery-product-render.jpg" alt="组装完成的 Mr. Launcher 2.0 产品效果图，包含平台、稳定杆、扶手杆和 Kandy Kane 管材" loading="lazy" width="1079" height="686">
+        </figure>
+        <figure class="gallery-figure">
+          <img class="clickable-photo full-diagram" src="images/dimension-drawings.jpg" alt="尺寸图：总宽 84 1/4 英寸，由 24 1/2、35 1/4 和 24 1/2 英寸组成；平台长 96 英寸；扶手杆高 27 英寸；甲板高 11 英寸；稳定杆采用 1 英寸管材，长 38 1/2 英寸，孔距为 1、12、12 1/2、12 和 1 英寸，孔径通常为 7/16 英寸；可调节管支撑带一个 7/16 英寸的孔" loading="lazy" width="1744" height="1136">
+        </figure>
+      </div>
+
+      <p class="gallery-hint">点按或单击任意图片即可全屏查看。尺寸图放大后更易阅读。</p>
+
+      <footer class="page-footer">
+        <span class="footer-brand-info">
+          <a class="footer-url" href="https://americanmuscledocks.com" target="_blank" rel="noopener">AMERICANMUSCLEDOCKS.COM</a>
+          <span class="footer-sep">&nbsp;&bull;&nbsp;</span>
+          <a class="footer-phone" href="tel:18002233444">1-800-223-3444</a>
+        </span>
+        <b class="page-num">9</b>
+      </footer>
+    </article>
+
+    <!-- PAGE 10: BACK COVER -->
+    <article id="page-10" class="manual-page closing-page" data-title="安装前有疑问？">
+      <div class="closing-container">
+        <header class="closing-brand-header">
+          <img src="images/amd-closing-logo.png" alt="American Muscle Docks &amp; Fabrication" class="closing-brand-logo" width="1536" height="416">
+        </header>
+
+        <div class="closing-visual-frame">
+          <img src="images/mr-launcher-logo.png" alt="Mr. Launcher 2.0 皮划艇下水码头" class="closing-mascot-img" width="973" height="409">
+        </div>
+
+        <div class="closing-contact-card">
+          <div class="closing-contact-main">
+            <h2 class="closing-questions-title">安装前有疑问？</h2>
+            <a href="tel:18002233444" class="closing-phone">1-800-223-3444</a>
+            <a href="https://americanmuscledocks.com" target="_blank" rel="noopener" class="closing-site">AMERICANMUSCLEDOCKS.COM</a>
+          </div>
+          <div class="closing-qr-block">
+            <a href="https://americanmuscledocks.com/blogs/instructions" target="_blank" rel="noopener" title="在新窗口中打开参考视频">
+              <img src="images/cover-qr-code.png" alt="扫描二维码观看参考视频" class="closing-qr-img" width="230" height="230">
+            </a>
+          </div>
+        </div>
+
+        <footer class="closing-page-footer">
+          <span>AMERICAN MUSCLE DOCKS &amp; FABRICATION &nbsp;&middot;&nbsp; MR. LAUNCHER 皮划艇下水码头 2.0 安装手册</span>
+        </footer>
+      </div>
+    </article>
+  </main>
+
+  <!-- BOTTOM FLOATING NAV -->
+  <nav class="bottom-nav" aria-label="页面导航">
+    <button id="previous-page" type="button" aria-label="上一页">← 上一页</button>
+    <button id="open-contents" type="button" aria-label="打开目录">页面</button>
+    <button id="next-page" type="button" aria-label="下一页">下一页 →</button>
+  </nav>
+
+  <!-- SCROLL TO TOP FLOATING BUTTON -->
+  <button id="scroll-to-top" class="scroll-to-top" type="button" aria-label="滚动回页面顶部" title="回到顶部">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- IMAGE ENLARGE MODAL DIALOG -->
+  <dialog id="image-dialog" aria-labelledby="dialog-caption">
+    <header class="dialog-header">
+      <div class="dialog-header-info">
+        <svg class="dialog-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          <line x1="11" y1="8" x2="11" y2="14"></line>
+          <line x1="8" y1="11" x2="14" y2="11"></line>
+        </svg>
+        <p id="dialog-caption">手册图示</p>
+      </div>
+      <div class="dialog-header-controls">
+        <button id="dialog-zoom-toggle" type="button" class="dialog-control-btn" title="切换原始尺寸 / 适应窗口">
+          <span id="dialog-zoom-text">原始尺寸 (100%)</span>
+        </button>
+        <button id="dialog-close" type="button" class="dialog-close-btn" aria-label="关闭放大视图 (Esc)" title="关闭 (Esc)">✕</button>
+      </div>
+    </header>
+    <div class="dialog-body" id="dialog-body">
+      <img id="dialog-image" alt="放大的图示">
+    </div>
+  </dialog>
+  <!-- DOCKY AI ASSISTANT & VISUAL TUTOR WIDGET -->
+  <div id="dockly-widget" class="dockly-widget-root">
+    <!-- Floating Launcher Button -->
+    <button id="dockly-launcher" class="dockly-launcher" type="button" aria-label="打开 Docky AI 安装助手" title="与 Docky AI 助手聊天">
+      <div class="dockly-launcher-avatar-ring">
+        <img src="images/captain-docky.png" alt="Docky 吉祥物" class="dockly-launcher-img">
+        <span class="dockly-online-dot"></span>
+      </div>
+      <span class="dockly-launcher-label">询问 Docky</span>
+      <div class="dockly-speech-bubble" aria-hidden="true">
+        <span>需要安装帮助吗，伙计？⚓</span>
+      </div>
+    </button>
+
+    <!-- Interactive Chat Panel -->
+    <aside id="dockly-panel" class="dockly-panel" aria-hidden="true" role="dialog" aria-label="Docky AI 助手聊天">
+      <header class="dockly-header">
+        <div class="dockly-header-info">
+          <div class="dockly-header-avatar">
+            <img src="images/captain-docky.png" alt="Docky">
+            <span class="dockly-header-badge">AI</span>
+          </div>
+          <div>
+            <h3 class="dockly-title">Docky <span>安装指导</span></h3>
+            <span id="dockly-status-badge" class="dockly-status-badge offline">内置专家模式</span>
+          </div>
+        </div>
+
+        <div class="dockly-header-actions">
+          <button id="dockly-header-stop-btn" type="button" class="dockly-header-stop-btn" style="display:none;" title="停止语音播报" aria-label="停止语音播报">
+            <span class="stop-icon">⏹</span>
+            <span>停止</span>
+          </button>
+          <button id="dockly-settings-btn" type="button" class="dockly-icon-btn" title="AI 及语音设置" aria-label="设置">
+            ⚙️
+          </button>
+          <button id="dockly-clear-chat" type="button" class="dockly-icon-btn" title="清除聊天记录" aria-label="清除聊天">
+            🗑️
+          </button>
+          <button id="dockly-close-btn" type="button" class="dockly-close-btn" title="关闭 Docky" aria-label="关闭">
+            ✕
+          </button>
+        </div>
+      </header>
+
+      <!-- Messages Stream -->
+      <div id="dockly-messages" class="dockly-messages" role="log" aria-live="polite"></div>
+
+      <!-- Media Attachment Preview Strip -->
+      <div id="dockly-attachment-preview" class="dockly-attachment-preview"></div>
+
+      <!-- Active Voice Playback Banner (Instant Stop On Click) -->
+      <div id="dockly-voice-banner" class="dockly-voice-banner" style="display:none;" role="status" aria-live="polite">
+        <div class="voice-banner-left">
+          <div class="voice-wave-bars">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <span class="voice-banner-text">Docky 正在说话...</span>
+        </div>
+        <button type="button" id="dockly-banner-stop-btn" class="dockly-banner-stop-btn" title="立即停止说话（点击静音）" aria-label="停止 Docky 说话">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+          </svg>
+          <span>停止语音</span>
+        </button>
+      </div>
+
+      <!-- Footer & Input Controls -->
+      <footer class="dockly-footer">
+        <form id="dockly-form" class="dockly-form">
+          <input type="file" id="dockly-file-input" accept="image/*,video/*" hidden aria-label="上传照片或视频以供检查">
+          <input type="file" id="dockly-camera-input" accept="image/*" capture="environment" hidden aria-label="用相机拍照">
+
+          <button type="button" id="dockly-attach-btn" class="dockly-action-btn attach-btn" title="上传码头照片或视频 (+)" aria-label="上传照片或视频">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="12" y1="5" x2="12" y2="19"></line>
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+            </svg>
+          </button>
+
+          <button type="button" id="dockly-camera-btn" class="dockly-action-btn camera-btn" title="用相机实时拍照" aria-label="实时拍照">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+              <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+          </button>
+
+          <input type="text" id="dockly-input" class="dockly-input" placeholder="询问 Docky 或上传码头照片/视频..." autocomplete="off">
+
+          <button type="button" id="dockly-mic-btn" class="dockly-action-btn mic-btn" title="与 Docky 对话（免提语音）" aria-label="语音输入">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+              <line x1="12" y1="19" x2="12" y2="23"></line>
+              <line x1="8" y1="23" x2="16" y2="23"></line>
+            </svg>
+          </button>
+
+          <button type="submit" id="dockly-send-btn" class="dockly-send-btn" title="发送问题" aria-label="发送消息">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </form>
+        <div class="dockly-footer-note">
+          <span>AI 辅导员基于 American Muscle Docks 的 Mr. Kayak Launch Dock 手册训练。切勿跳过结构性要求。</span>
+        </div>
+      </footer>
+    </aside>
+
+    <!-- AI & Voice Settings Modal -->
+    <dialog id="dockly-settings-dialog" class="dockly-settings-dialog" aria-labelledby="dockly-settings-title">
+      <div class="dockly-settings-box">
+        <header class="dockly-settings-header">
+          <h3 id="dockly-settings-title">⚙️ Docky AI 及语音设置</h3>
+          <button type="button" id="dockly-settings-close" class="dockly-close-btn" aria-label="关闭设置">✕</button>
+        </header>
+
+        <form class="dockly-settings-form">
+          <div class="settings-checkbox-field">
+            <label>
+              <input type="checkbox" id="dockly-auto-speak">
+              <span>自动朗读 Docky 的回复（免提）</span>
+            </label>
+          </div>
+
+          <div class="settings-actions">
+            <button type="button" id="dockly-settings-save" class="dockly-btn-primary">保存设置</button>
+          </div>
+        </form>
+      </div>
+    </dialog>
+  </div>
+</body>
+</html>
